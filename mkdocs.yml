@@ -1,0 +1,15 @@
+site_name: Quote
+repo_url: https://github.com/Deivedux/Quote
+pages:
+- Home: index.md
+- Hosting Guides:
+    - Windows Guide: Guides/Windows Guide.md
+    - Linux Guide: Guides/Linux Guide.md
+    - Credentials Guide: Guides/Credentials Guide.md
+- Other Guides:
+    - Bug Reporting: Guides/Reporting Bugs.md
+- Explanation of Features:
+    - Commands List: Explanation of Features/Command List.md
+    - Quoting: Explanation of Features/Quoting.md
+
+theme: readthedocs

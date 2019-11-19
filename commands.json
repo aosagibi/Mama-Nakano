@@ -1,0 +1,108 @@
+{
+	"help": {
+		"title": ["help"],
+		"description": "Show this message, or more details on a specific command.",
+		"examples": ["help"]
+	},
+	"donators": {
+		"title": ["donators"],
+		"description": "List users that support Quote on Patreon.",
+		"examples": ["donators"]
+	},
+	"quote": {
+		"title": ["quote", "q"],
+		"description": "Quote a message using a message ID or by saying a part of the message (case-insensitive), and optionally leave your own reply to a quoted message. Limited to 2 uses per 5 second time frame per channel.",
+		"examples": ["quote 426100904874213387", "q 426100904874213387 This is my reply", "quote message this is my reply", "quote \"this message\" my reply"]
+	},
+	"personaladd": {
+		"title": ["personaladd", "padd"],
+		"description": "Add your personal quote, with a trigger and a response, which only you can trigger in any server. A response can be any number of attachments and/or a follow-up message after the trigger.",
+		"examples": ["padd trigger response", "padd \"my trigger\" my response"]
+	},
+	"qradd": {
+		"title": ["qradd", "qr"],
+		"description": "Same as `{0}personaladd`, but instead creates a QR code based on the response of your trigger. Lesser characters - better performance; it is highly recommended to use a link shortener in your response, especially if it's a long link.",
+		"examples": ["qradd trigger response"]
+	},
+	"personalremove": {
+		"title": ["personalremove", "premove", "prem"],
+		"description": "Remove your personal quote with a specified trigger.",
+		"examples": ["premove my trigger"]
+	},
+	"personal": {
+		"title": ["personal", "p"],
+		"description": "Execute your personal quote with a chosen trigger.",
+		"examples": ["p trigger"]
+	},
+	"personallist": {
+		"title": ["personallist", "plist"],
+		"description": "List your personal quotes. 10 quotes per page.",
+		"examples": ["plist", "plist 2"]
+	},
+	"personalclear": {
+		"title": ["personalclear", "pclear"],
+		"description": "Deletes all your personal quotes.",
+		"examples": ["pclear"]
+	},
+	"randquote": {
+		"title": ["randquote"],
+		"description": "Shows a random quote from a random (or specified) category. Type `{0}randcategories` for a list of categories.",
+		"examples": ["randquote", "randquote Funny"]
+	},
+	"randcategories": {
+		"title": ["randcategories"],
+		"description": "Shows a list of available quote categories.",
+		"examples": ["randcategories"]
+	},
+	"randsubmit": {
+		"title": ["randsubmit"],
+		"description": "Submit your own quote for a specified category. First argument is a category name, everything after it is a quote. Only works in DM channels. To prevent unwanted spam, command is limited to 5 uses within an hour per user, regardless of it's success. Limited to 5 uses per 60 minute time frame per user.",
+		"examples": ["randsubmit Meme This is a meme quote."]
+	},
+	"prefix": {
+		"title": ["prefix"],
+		"description": "See currently set prefix, or change to a different prefix for this server.",
+		"examples": ["prefix", "prefix !"]
+	},
+	"delcommands": {
+		"title": ["delcommands", "delcmds"],
+		"description": "Toggle whether to automatically delete the quote command message before quoting.",
+		"examples": ["delcommands"]
+	},
+	"reactions": {
+		"title": ["reactions"],
+		"description": "Toggle whether to let users quote messages by adding :speech_balloon: reaction to them.",
+		"examples": ["reactions"]
+	},
+	"duplicate": {
+		"title": ["duplicate", "dupe"],
+		"description": "Duplicate messages from one channel to the other with a help of a webhook. First argument is the number of messages to duplicate (max 100), second argument is the channel to duplicate messages from, third argument is the target channels to duplicate messages to (defaults to current). User requires `Manage Server` permission to execute. Limited to 2 uses per 30 second time frame per server.",
+		"examples": ["dupe 20 #from #to", "dupe 20 #chat"]
+	},
+	"pinchannel": {
+		"title": ["pinchannel", "pinc"],
+		"description": "Set a channel that will be used for pinning messages. Members with Manage Messages permission can react with :pushpin: to pin a message.",
+		"examples": ["pinchannel #channel", "pinchannel"]
+	},
+	"snipe": {
+		"title": ["snipe"],
+		"description": "Snipe the last deleted message from a specified channel. Defaults to current channel.",
+		"examples": ["snipe", "snipe #general"]
+	},
+	"lookup": {
+		"title": ["lookup"],
+		"description": "Look up general information about a Discord invite URL/code.",
+		"examples": ["lookup sbySHxA"]
+	},
+	"snowflake": {
+		"title": ["snowflake"],
+		"description": "Gets the creation date and time of the specified Discord snowflake (ID).",
+		"examples": ["snowflake 418455732741079040"]
+	},
+	"embedwoy": {
+		"title": ["embedwoy"],
+		"description": "Gets the creation date and time of the specified Discord snowflake (ID).",
+		"examples": ["snowflake 418455732741079040"]
+	}
+
+}

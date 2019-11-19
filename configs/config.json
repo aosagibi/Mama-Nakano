@@ -1,0 +1,20 @@
+{
+	"token": "NjAxMzAzOTAwNTY1NTM2NzY4.XUNCgA.C9Ncb-FWZbVa6JT6TEaIkwGmQs0",
+	"bot_id": 601303900565536768,
+	"default_prefix": "rena.",
+	"botlog_webhook_url": "",
+	"set_afk" : "off",
+	"afk_message" : "",
+	"response_string": {
+		"success": ":white_check_mark:",
+		"error": ":x:"
+	},
+	"owner_ids": [],
+	"anti_bot_farm": {
+		"enabled": false,
+		"leave_guild_if": {
+			"min_member_count": 20,
+			"min_bot_rate": 70.0
+		}
+	}
+}
